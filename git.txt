@@ -1,0 +1,28 @@
+
+
+ssh-keygen -C 'yue_lei_cool@126.com' -t rsa
+
+
+
+--git提交代码到github的文章
+http://jingyan.baidu.com/article/e75aca85bb2720142edac61d.html
+
+mkdir test
+cd test
+git init
+touch README
+git add README
+git commit -m 'first commit'
+git remote add origin git@github.com:yueleicool/test.git
+git push -u origin master
+
+git remote rm origin
+git remote add origin git@github.com:yueleicool/demo.git
+
+git remote add origin git@github.com:yueleicool/demo.git
+
+$ git config --global github.user yueleicool      //github 上的用户名
+
+$ git config --global github.token 0fb6109f95bdf92a54039cbeb88d60a837ad53e5
+
+0fb6109f95bdf92a54039cbeb88d60a837ad53e5
