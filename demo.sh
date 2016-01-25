@@ -11,7 +11,7 @@ $CP "$SOURCE" "$TARGET" &
 CPID=$!
 
 isalive(){
-        ōut=`ps -p $1 2> /dev/null`
+        out=`ps -p $1 2> /dev/null`
         return $?
 }
 
